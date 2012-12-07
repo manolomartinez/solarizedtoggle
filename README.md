@@ -1,7 +1,7 @@
 solarizedtoggle
 ===============
 
-A set of files and a script to toggle solarized dark/light
+A set of files and a script to toggle [solarized](http://ethanschoonover.com/solarized) dark/light.
 
 The script simply creates symliks, or copies files to the right places whenever one toggles from light to dark or vice versa. I use `urxvt`, `vim`, `zathura` and `mutt`, so that's what it changes; but extending it to other applications is, of course, as trivial as the script itself.
 
