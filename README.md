@@ -3,7 +3,9 @@ solarizedtoggle
 
 A set of files and a script to toggle [solarized](http://ethanschoonover.com/solarized) dark/light.
 
-The script simply creates symliks, or copies files to the right places whenever one toggles from light to dark or vice versa. I use `urxvt`, `vim`, `zathura` and `mutt`, so that's what it changes; but extending it to other applications is, of course, as trivial as the script itself.
+The script simply creates symliks, or copies files to the right places whenever one toggles from light to dark or vice versa. I use `urxvt`, `vim`, `zathura` and `mutt`, so that's what it changes; but extending it to other applications is, of course, as trivial as the script itself. 
+
+`Xresources-light` is simply the solarized `Xresources`, modified so as to have the light version of the colour scheme. It remains, thus, under the [license](https://github.com/altercation/solarized/blob/master/LICENSE) that Ethan Schoonover has chosen for solarized. All the other files are public domain.
 
 It works, although some things puzzle me:
 
